@@ -1,0 +1,39 @@
+body {
+    background-color: lightyellow;
+    font-family: 'Inter', regular, monospace;
+     font-size: 16;
+      font-weight: 400;
+    }
+    
+    #title {
+      color: midnightblue;
+      font-family: 'Inter', bolt, monospace;
+      font-size: 18;
+      font-weight: 700;
+    }
+    
+    #description {
+      text-decoration: underline;
+    }
+    
+    #survey-form {
+      width: 300px;
+      margin: 20px auto;
+      padding: 10px;
+      border: 2px solid midnightblue;
+      border-radius: 8px;
+      background-color: gray;
+      color: white;
+    }
+    
+    .forn-field {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin: 10px;
+    }
+
+    .form-button {
+        background-color: gold;
+    }
+    

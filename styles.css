@@ -1,23 +1,50 @@
+/* Base */
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
 body {
     background-color: lightyellow;
     font-family: 'Inter', regular, monospace;
-     font-size: 16;
+     font-size: 20px;
       font-weight: 400;
+      margin: 0;
+    }
+
+h1, p {
+    margin-top: 0;
+}
+
+/* Main */
+    .container {
+      width: 100%;
+      margin: 0 auto;
     }
     
-    #title {
+    .title {
       color: midnightblue;
       font-family: 'Inter', bolt, monospace;
-      font-size: 18;
+      font-size: 34px;
       font-weight: 700;
+      text-align: center;
     }
     
-    #description {
+    .description {
       text-decoration: underline;
+      text-align: center;
+    }
+
+    .image {
+background-image: url(/image/workplace.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: 100% auto;
     }
     
-    #survey-form {
-      width: 300px;
+    .survey-form {
+      width: 500px;
       margin: 20px auto;
       padding: 10px;
       border: 2px solid midnightblue;
@@ -33,7 +60,16 @@ body {
         margin: 10px;
     }
 
+    .text {
+      margin-bottom: 0;
+    }
+
     .form-button {
         background-color: gold;
+        width: 200px;
+    height: 58px;
+    margin: 0 auto;
+    border-radius: 8px;
+    font-size: 18px;
     }
     

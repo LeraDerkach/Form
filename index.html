@@ -4,10 +4,11 @@
 <head>
 </head>
 <body>
-  <main>
-    <h1 id="title">Survey Form</h1>
-    <p id="description">Thank you for taking the time to complete our survey. Your feedback is very important to us and will help improve our services.</p>
-    <form id="survey-form">
+  <main class="container">
+    <h1 class="title">Survey Form</h1>
+    <p class="description">Thank you for taking the time to complete our survey. Your feedback is very important to us and will help improve our services.</p>
+    <div class="image">
+<form class="survey-form">
       <div class="forn-field">
         <label id="name-label" for="name">Name</label>
       <input
@@ -17,17 +18,15 @@
         <label id="email-label" for="email">Email</label>
       <input
 id="email" type="email" name="email" placeholder="Enter a valid email address" required>
-      </div>
-      
+      </div>    
 <div class="forn-field">
-  <label>
+  <label
   id="number-label" for="number">Age</label>
       <input
       id="number" type="number" min="10" max="99" placeholder="Enter your age" required>
       </div>
-      
 <div class="forn-field">
-  <p>What is your current role?<p>
+  <p class="text">What is your current role?<p>
       <select
       id="dropdown" name="role" required>
       <option value="student">Student</option>
@@ -37,10 +36,9 @@ id="email" type="email" name="email" placeholder="Enter a valid email address" r
       <option value="Unemployed">Unemployed</option>
       <option value="Other">Other</option>
       </select>
-      </div>
-      
+      </div>    
 <div class="forn-field">
-  <p>Would you recommend us to a friend?
+  <p class="text">Would you recommend us to a friend?
 (Select one)
   </p>
   <label>
@@ -48,10 +46,9 @@ id="email" type="email" name="email" placeholder="Enter a valid email address" r
   </label>
       <label><input type="radio" name="choice" value="No">No</input></label>
       <label><input type="radio" name="choice" value="Maybe">Maybe</input></label>
-</div>
-      
+</div>  
 <div class="forn-field">
-  <p>What do you like most about our service?
+  <p class="text">What do you like most about our service?
 (Select all that apply)
   </p>
       <label><input type="checkbox" name="choice" value="Ease of use">Ease of use</input></label>
@@ -60,15 +57,16 @@ id="email" type="email" name="email" placeholder="Enter a valid email address" r
       <label><input type="checkbox" name="choice" value="Customer support">Customer support</input></label>
       <label><input type="checkbox" name="choice" value="Other">Other</input></label>
       </div>
-
 <div class="forn-field">
   <p>Your comments or suggestions:
   </p>
       <textarea id="message" name="message" rows="5" cols="30" placeholder="You can leave any feedback here..."></textarea>
       <button class="form-button" id="submit" type="submit">Submit</button>
       </div>
-
     </form>
+    </div> 
   </main>
 </body>
+
+
 
